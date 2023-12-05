@@ -135,7 +135,7 @@ const Login: React.FC = () => {
     } catch (error) {
       const defaultLoginFailureMessage = intl.formatMessage({
         id: 'pages.login.failure',
-        defaultMessage: '登录失败，请重试！',
+        defaultMessage: '!!!!!!!!!!！',
       });
       console.log(error);
       message.error(defaultLoginFailureMessage);
